@@ -8,9 +8,17 @@ function Products({list}) {
                 {
                     list.map((product)=>(
                         <div key={product.id} className="product-item">
-                            <h3>{product.name}</h3>
-             <img src={`${import.meta.env.BASE_URL}image/${product.image}`} alt={product.name} width={150}/>
-                            <p>{product.price}</p>
+  <h3>{product.name}</h3>
+
+  <p>/image/{product.image}</p>
+
+  <img
+    src={`/image/${product.image}`}
+    alt={product.name}
+    width={150}
+  />
+
+  <p>{product.price}</p>
                             <Link to={`/productlist/${product.id}`}>View Detail</Link>
                         </div>
                     ))
