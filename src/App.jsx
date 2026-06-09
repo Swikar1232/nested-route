@@ -8,26 +8,26 @@ import ProductDetail from './Component/ProductDetail';
 import Dashboard from './Component/Dashboard';
 import Profile from './Component/Profile';
 import Settings from './Component/Settings';
-const products=[
-  {id:1,
-     name:"Laptop", 
-     price:1200,
-    image: "/image/Laptop.jpg"
-    },
+const products = [
   {
-    id:1, 
-    name:"Keyboard", 
-    price:100,
-     image: "/image/keyboard.jpg"
-    },
-
+    id: 1,
+    name: "Laptop",
+    price: 1200,
+    image: "Laptop.jpg"
+  },
   {
-    id:1, 
-    name:"Mouse",
-     price:200, 
-    image: "/image/mouse.jpg"
-    }
-]
+    id: 2,
+    name: "Keyboard",
+    price: 100,
+    image: "keyboard.jpg"
+  },
+  {
+    id: 3,
+    name: "Mouse",
+    price: 200,
+    image: "mouse.jpg"
+  }
+];
 
 const Home = () => <h2>Welcome to my Home</h2>
 
