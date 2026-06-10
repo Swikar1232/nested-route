@@ -28,5 +28,4 @@ function Products({list}) {
         </div>
     )
 }
-
 export default Products;
